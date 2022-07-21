@@ -5,16 +5,21 @@ A python script to find [OneGadgets](https://github.com/david942j/one_gadget) in
 # Why?
 I wanted to play around with angr, this seemed fun, also I don't like having to install ruby for one_gadget and seccomp_tools
 
+# Installing
+```
+git clone https://github.com/zolutal/angr_one_gadget.git
+pip install angr_one_gadget/
+```
 
 # Example
 ## Usage
 ```
-python angr_one.py </path/to/libc>
+an_gadget </path/to/libc>
 ```
 
 ## Output
 ```
-Found OneGadgets:
+Found Gadgets:
 Offset: 0xe3b34
  rsi == 0x0,  rdx == 0x0
 Offset: 0xe3b31
